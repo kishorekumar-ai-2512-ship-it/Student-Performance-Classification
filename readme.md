@@ -2,7 +2,7 @@
 
 
 
-This project focuses on predicting whether a student will \*\*pass or fail\*\* based on academic and personal factors using \*\*Machine Learning\*\* techniques.
+This project focuses on predicting whether a student will \*\*pass or fail\*\* based on academic and personal factors using 'random forest' techniques.
 
 
 
@@ -10,57 +10,19 @@ The goal of this project is to understand how different features such as study h
 
 
 
----
+## Model Performance Note
+
+This project was implemented as a beginner-level machine learning practice project.
+After correcting data leakage by using a proper train–test split, the model achieved
+an accuracy of approximately 50%.
+
+This result highlights an important machine learning concept:
+model performance depends heavily on feature relevance and data quality.
+The project successfully demonstrates the complete ML pipeline rather than
+optimizing for high accuracy.
 
 
-
-\## Dataset Description:
-
-
-
-The dataset contains academic and personal details of students.
-
-It includes study hours, attendance rate, and previous grades.
-
-Information about extracurricular participation is also provided.
-
-Parental education level is used as a background factor.
-
-The target variable indicates whether a student passed or failed.
-
-
-
----
-
-
-
-\## Model Evaluation:
-
-
-
-The model was evaluated using:
-
-
-
-\- Accuracy Score
-
-\- Confusion Matrix
-
-
-
-\*\*Results:\*\*
-
-\- Accuracy achieved: \*\*~99.97%\*\*
-
-\- Very low misclassification rate
-
-
-
----
-
-
-
-\## Conclusion:
+## Conclusion:
 
 
 
